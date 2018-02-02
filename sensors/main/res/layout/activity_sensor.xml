@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+
+    <TextView
+        android:id="@+id/XValueView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/YValueView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/XValueView"
+        android:layout_below="@+id/XValueView"
+        android:layout_marginTop="16dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/ZValueView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/YValueView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/XGravity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ZValueView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/YGravity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/XGravity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/ZGravity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/YGravity"
+        android:layout_below="@+id/YGravity"
+        android:layout_marginTop="18dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/XAccel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ZGravity"
+        android:layout_below="@+id/ZGravity"
+        android:layout_marginTop="16dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/YAccel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/XAccel"
+        android:layout_below="@+id/XAccel"
+        android:layout_marginTop="16dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/ZAccel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/YAccel"
+        android:layout_below="@+id/YAccel"
+        android:layout_marginTop="16dp"
+        android:text="" />
+
+
+</RelativeLayout>
+
+
