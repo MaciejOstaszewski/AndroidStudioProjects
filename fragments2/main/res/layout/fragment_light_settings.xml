@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/light_settings"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    >
+
+
+    <SeekBar
+        android:id="@+id/red"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <SeekBar
+        android:id="@+id/green"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/red"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/greenText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GREEN"
+
+
+        android:layout_alignTop="@+id/green"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/redText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RED"
+        android:layout_alignBottom="@+id/red"
+        android:layout_alignParentStart="true" />
+
+    <SeekBar
+        android:id="@+id/blue"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/green"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/blueText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/blue"
+        android:layout_alignParentStart="true"
+        android:text="BLUE" />
+
+    <SeekBar
+        android:id="@+id/brightness"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/blue"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/brightnessText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BRIGHTNESS"
+        android:layout_alignBottom="@+id/brightness"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/changeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="Zmień"
+        android:layout_below="@+id/anim2Bar"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edytuj"
+        android:layout_alignBaseline="@+id/changeButton"
+        android:layout_alignBottom="@+id/changeButton"
+        android:layout_toEndOf="@+id/changeButton" />
+
+    <Button
+        android:id="@+id/animButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animuj"
+        android:layout_alignBaseline="@+id/editButton"
+        android:layout_alignBottom="@+id/editButton"
+        android:layout_alignParentEnd="true" />
+
+    <SeekBar
+        android:id="@+id/anim1Bar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/brightness"
+        android:layout_alignParentEnd="true" />
+
+    <SeekBar
+        android:id="@+id/anim2Bar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/anim1Bar"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANIM1"
+        android:layout_alignBottom="@+id/anim1Bar"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/changeButton"
+        android:layout_alignEnd="@+id/textView"
+        android:text="ANIM2" />
+
+    <Button
+        android:id="@+id/brightnessButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/animButton"
+        android:layout_toStartOf="@+id/animButton"
+        android:text="Jasność" />
+
+</RelativeLayout>

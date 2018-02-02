@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lighing_list">
+
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/list"
+    android:name="com.example.start.l11a.LampListFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    app:layoutManager="LinearLayoutManager"
+    android:layout_above="@+id/add_lamp"
+    android:layout_marginBottom="10dp"
+    tools:context="com.example.start.l11a.fragments.lighting.LampListFragment"
+    tools:listitem="@layout/fragment_lamplistfragment" />
+
+    <Button
+        android:text="Dodaj Lampkę"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_lamp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
