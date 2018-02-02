@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="jelly_width">300dp</dimen>
+    <dimen name="jelly_height">300dp</dimen>
+    <dimen name="image_right_height">250dp</dimen>
+    <dimen name="image_left_width">250dp</dimen>
+    <dimen name="image_left_height">250dp</dimen>
+    <dimen name="image_right_width">250dp</dimen>
+    <dimen name="image_right_padding">20dp</dimen>
+    <dimen name="image_left_padding">20dp</dimen>
+    <dimen name="jelly_w">30dp</dimen>
+    <dimen name="jelly_h">30dp</dimen>
+</resources>
