@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+
+    <Button
+        android:id="@+id/ADDStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="26dp"
+        android:layout_marginEnd="25dp"
+        android:text="ADD" />
+
+    <Button
+        android:id="@+id/contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From contacts book"
+        android:layout_alignBaseline="@+id/ADDStudent"
+        android:layout_alignBottom="@+id/ADDStudent"
+        android:layout_alignStart="@+id/StudentName"
+        android:layout_marginStart="11dp" />
+
+    <TextView
+        android:id="@+id/StudentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:editable="true"
+        android:focusableInTouchMode="true"
+        android:hint="Enter student name" />
+
+    <TextView
+        android:id="@+id/StudentPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/StudentName"
+        android:editable="true"
+        android:focusableInTouchMode="true"
+        android:inputType="numberSigned"
+        android:hint="Enter student phone number"
+        android:layout_alignStart="@+id/StudentName" />
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+
+    <TextView
+        android:id="@+id/startText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="@string/start_text" />
+
+    <EditText
+        android:id="@+id/loginEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:hint="@string/login_hint"
+        android:layout_below="@+id/startText"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/passwordEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:password="true"
+        android:hint="@string/password_hint"
+        android:layout_below="@+id/loginEdit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp" />
+
+    <Button
+        android:id="@+id/sign_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text"
+        android:layout_below="@+id/passwordEdit"
+        android:layout_alignStart="@+id/loginEdit"
+        android:layout_marginTop="61dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sign_button"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/sign_button"
+        android:text="@string/checkBox_text"
+        />
+
+
+</RelativeLayout>
