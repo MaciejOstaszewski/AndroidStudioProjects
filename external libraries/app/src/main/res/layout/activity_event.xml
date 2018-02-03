@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:id="@+id/relative"
+    >
+
+
+    <Button
+        android:id="@+id/getInfoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="GET EventInfo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/getInfoIdButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GET EventInfo(id)"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/getInfoButton"
+        android:layout_alignEnd="@+id/putButton" />
+
+    <Button
+        android:id="@+id/postInfoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POST EventInfo"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/getInfoButton" />
+
+    <Button
+        android:id="@+id/putButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:text="PUT EventInfo(id)"
+        android:layout_below="@+id/postInfoButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="DELETE EventInfo(id)"
+        android:layout_below="@+id/putButton"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

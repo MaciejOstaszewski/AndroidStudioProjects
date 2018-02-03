@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:id="@+id/relative"
+    >
+
+
+    <Button
+        android:id="@+id/jobButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="start job" />
+
+    <Button
+        android:id="@+id/getStaticValuesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jobButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="get static values" />
+
+    <TextView
+        android:id="@+id/values"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="" />
+
+    <Button
+        android:id="@+id/eventButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/values"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:text="START EVENT" />
+</RelativeLayout>
